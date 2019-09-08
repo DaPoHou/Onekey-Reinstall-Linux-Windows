@@ -1,4 +1,4 @@
-背景:
+##背景:
 适用于由GRUB引导的CentOS,Ubuntu,Debian系统.
 使用官方发行版去掉模板预装的软件.
 同时也可以解决内核版本与软件不兼容的问题。
@@ -143,3 +143,4 @@ bash InstallNET.sh -c 6.10 -v 64 -a --mirror 'http://mirror.centos.org/centos'
 正常情况下只需要耐心等待安装完成即可.
 如果需要查看进度,使用VNC Viewer(或者其他VNC连接工具)
 连接提示中的IP地址:端口进行连接.(端口一般为1或者5901)
+ 来源：https://moeclub.org/2018/04/03/603/
